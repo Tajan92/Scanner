@@ -13,5 +13,9 @@ class Main{
 		int age = scan.nextInt();
 
 		System.out.println("You are "+age+" years old");
+
+		int retire = 67;
+
+		System.out.println("You have "+(retire-age)+" years until retirement");
 	}
 }
