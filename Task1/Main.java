@@ -13,9 +13,10 @@ public static void main(String[] args){
 	teams.add(new Team("FCN"));
 
 	teams.get(2).setRank(4);
+	teams.get(0).addPlayer("Bo");
 
 for (Team t : teams){
-	System.out.println(teams);
+	System.out.println(t);
 	}
 }
 
